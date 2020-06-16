@@ -21,10 +21,17 @@ To get started developing right away:
 │   ├── favicon.ico # React Icon, You may change if you wish.
 │   └── index.html # DO NOT MODIFY
 └── src
-    ├── App.css # Styles for your app. Feel free to customize this as you desire.
+    ├── components # Styles for your app. Feel free to customize this as you desire.
+    │   ├── Bookshelves #Bookshelves directory
+        └── Bookshelves.js #Bookshelves Javascript file for the collection of books
+    │       ├── BookShelf #Bookshelf directory
+    │               ├── BookShelf.js #BookShelf Javascript file for the Single BookShelf in BookShelves.
+    │   ├── common
+               ├── Book.js  #Books Javascript File
+        ├── SearchBooks
+               ├── SearchBooks.js  #SearchBooks Javascript file to search for the books activity
     ├── App.js # This is the root of your app. Contains static HTML right now.
     ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
-    ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
     ├── icons # Helpful images for your app. Use at your discretion.
     │   ├── add.svg
     │   ├── arrow-back.svg
